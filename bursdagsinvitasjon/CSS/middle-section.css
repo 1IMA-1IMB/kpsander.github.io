@@ -1,0 +1,22 @@
+.middle-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-top: 350px;
+    margin-left: 120px;
+}   
+.undertext{
+    font-size: 30px;
+    text-shadow: 0px 0px white;
+    padding-left: 10px;
+    height: 600px;
+    width: 400px;
+    box-shadow: 0px 4px 8px grey;
+    transition: background-color 0.30s;
+}
+.undertext:hover{
+    background-color: lightpink;
+}
+.undertext:active{
+    background-color: lightgreen;
+}

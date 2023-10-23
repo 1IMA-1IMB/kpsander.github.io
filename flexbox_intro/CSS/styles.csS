@@ -1,0 +1,99 @@
+.left{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    color: grey;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+}
+.top-row-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 145px;
+    border-width: 2px;
+    border-color: grey;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    width: 76%;
+    height: 80px;
+}
+.tab-1{
+    padding: 15px;
+    color: grey;
+    transition: border-bottom-width 0.15s, border-bottom-style 0.15s, border-bottom-color 0.15s;
+}
+.tab-2{
+    padding: 15px;
+    color: grey;
+    transition: border-bottom-width 0.15s, border-bottom-style 0.15s, border-bottom-color 0.15s;
+}
+.tab-3{
+    padding: 15px;
+    color: grey;
+    transition: border-bottom-width 0.15s, border-bottom-style 0.15s, border-bottom-color 0.15s;
+}
+.tab-4{
+    padding: 15px;
+    color: grey;
+    transition: border-bottom-width 0.15s, border-bottom-style 0.15s, border-bottom-color 0.15s;
+}
+.tab-1:hover{
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+.tab-2:hover{
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+.tab-3:hover{
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+.tab-4:hover{
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+p{
+    color: grey;
+    position: absolute;
+    top: 70px;
+    left: 170px;
+    right: 170px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 100px;
+}
