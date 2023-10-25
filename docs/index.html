@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Types</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Input Types</h1>
+        <div class="identification">
+            <div class="input-container">
+                <label for="text">Username:</label>
+                <input type="text" id="text" placeholder="Username">
+            </div>
+
+            <div class="input-container">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="********">
+            </div>
+        </div>
+
+        <div class="input-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@example.com">
+        </div>
+
+        <div class="input-container">
+            <label for="number">Age:</label>
+            <input type="number" id="number" min="0" max="100" placeholder="0 - 100">
+        </div>
+
+        <div class="input-container">
+            <label for="date">Birthday:</label>
+            <input type="date" id="date">
+        </div>
+
+        <div class="input-container">
+            <label for="color">Favourite color:</label>
+            <input type="color" id="color" value="#ff0000">
+        </div>
+
+        <div class="input-container">
+            <label for="range">Range Input:</label>
+            <input type="range" id="range" min="0" max="100" value="10">
+        </div>
+
+        <div class="input-container">
+            <label>Best Zelda game:</label>
+            <input type="radio" id="radio1" name="radioGroup" value="Option 1">
+            <label for="radio1">Breath of the wild</label>
+            <input type="radio" id="radio2" name="radioGroup" value="Option 2">
+            <label for="radio2">Ocarina of time</label>
+            <input type="radio" id="radio3" name="radioGroup" value="Option 3">
+            <label for="radio2">Tears of the kingdom</label>
+            <input type="radio" id="radio4" name="radioGroup" value="Option 4">
+            <label for="radio2">Link to the past</label>
+            <input type="radio" id="radio5" name="radioGroup" value="Option 5">
+            <label for="radio2">Other/None</label>
+        </div>
+
+        <div class="input-container">
+            <label>Checkboxes:</label>
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">Checkbox 1</label>
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Checkbox 2</label>
+        </div>
+
+        <div class="input-container">
+            <label for="file">CV:</label>
+            <input type="file" id="file">
+        </div>
+
+        <div class="input-container">
+            <input type="submit" id="submit" value="Submit">
+        </div>
+    </div>
+</body>
+</html>
