@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: minecraft enchantment Regular;
+    box-shadow: 0px 0px 1000px grey;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    top: 0;
+}
+.title:hover{
+    font-family: Minecraft;
+}
+.middle{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.grid{
+    background-color: lightblue;
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 60px grey;
+    transition: background-color 0.4s;
+}
+.grid-content-top:hover{
+    background-color: lightpink;
+}
+.grid-content-picture{
+    height: 180px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    object-fit: cover;
+    width: 250px;
+}
+.grid-content-top{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-content-bottom{
+    display: flex;
+    justify-content: center;
+    font-family: Minecraft;
+    background-color: rgb(133, 201, 224);
+}
