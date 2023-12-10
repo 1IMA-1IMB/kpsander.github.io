@@ -1,0 +1,164 @@
+.middle {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    padding-top: 10px;
+}
+
+.header-buttons{
+    z-index: 3;
+    pointer-events: auto;
+}
+
+.header-buttons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+#about{
+    background-color: black;
+    width: 100%;
+    margin-top: 700px;
+    margin-bottom: 700px;;
+    position: relative;
+}
+.om-meg-broedtekst{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#projects{
+    background-color: white;
+    width: 100%;
+    min-height: 1000px;
+    position: relative;
+    color: black
+}
+#projects h1{
+    font-size: 50px;
+}
+#projects h1, h2, p{
+    color: black;
+}
+#contact{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1702021998 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1702021998 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 213px;
+}
+
+.custom-shape-divider-bottom-1702021998 .shape-fill {
+    fill: #A9A9A9;
+}
+.om-meg-bilde{
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-right: 100px;
+}
+.om-meg{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.om-meg p, h2{
+    font-weight: bold;
+}
+.om-meg p{
+    font-family: Handlee
+}
+.portefoelje{
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.prosjekter{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+}
+.prosjektbilde{
+    object-fit: fill;
+    height: 220px;
+    width: 380px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: grey;
+    box-shadow: 1px 1px 100px grey;
+    transition: border-color 0.15s, border-width 0.15s;
+}
+.custom-shape-divider-bottom-1702021998 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1702021998 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 213px;
+}
+
+.custom-shape-divider-bottom-1702021998 .shape-fill {
+    fill: black;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1.5s;
+}
+.show{
+    opacity: 1;
+}
+.project-row{
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.project{
+    background-image: url('bilder/g4jr.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%
+}

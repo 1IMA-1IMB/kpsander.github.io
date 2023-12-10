@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: none;
+    padding: none;
+    background-color: black;
+    height: 3000px;
+}
+html::-webkit-scrollbar {
+    display: none;
+  }
