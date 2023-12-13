@@ -2,7 +2,6 @@
     background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-346529.jpg&fm=jpg');
     background-size: cover;
     height: 100vh;
-    margin-top: 100px;
     position: relative;
     z-index: 1;
     display: flex;
@@ -23,24 +22,19 @@
     padding-left : 100px;
   }
   .hero_overlay_img{
-    position: absolute;
-    z-index: 12;
-    width: 100%;
-    opacity: 10%;
-    margin-top: 900px;
-    margin-left: 150px;
+    display: none;
   }
   header {
     position: fixed;
     top: 0;
     right: 0;
+    left: 0;
     z-index: 3;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
-    box-shadow: 0 4px 100px black;
+    margin-top: 40px;
   }
 
   header a {
@@ -49,17 +43,22 @@
     justify-content: center;
     align-items: center;
     border: none;
-    color: white;
+    color: black;
     font-size: 20px;
     font-family: 'Open Sansx    ', sans-serif;
     position: relative;
     padding: 30px;
-    transition: border-style 1.5s, border-color 1.5s;
+    transition: background-color 0.15s, opacity 0.15s;
+    border-color: white;
+    border-style: solid;
+    text-shadow: 0 0 1px white;
+    font-size: 30px;
+    opacity: 30%;
   }
 
   header a:hover {
-    border-color: white;
-    border-style: solid;
+    background-color: white;
+    opacity: 100;
   }
   .custom-shape-divider-top-1702462816 {
     position: absolute;
