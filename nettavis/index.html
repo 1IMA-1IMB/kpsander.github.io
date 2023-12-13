@@ -3,55 +3,131 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HTML5 Hero Video</title>
+  <title>Elon musk fanpage</title>
   <link href="css/general.css" type="text/css" rel="stylesheet" />
   <link href="css/header.css" type="text/css" rel="stylesheet" />
   <link href="css/main.css" type="text/css" rel="stylesheet" />
+  <link href="css/mediaquery.css" type="text/css" rel="stylesheet" />
   <link href="css/footer.css" type="text/css" rel="stylesheet" />
-  <script src="javascript/scripts.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <script src="javascript\scripts.js"></script>
 </head>
 
 <body>
   <header>
-    <div class="hero"></div>
-    <div class="overlay">
-        <h2>Elon Musk</h2>
-    </div>
-    <div class="custom-shape-divider-bottom-1701858182">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" class="shape-fill"></path>
-        </svg>
-    </div>
+    <a href="#">
+      Hjem
+    </a>
+    <a href="#latest-news">
+      Siste nytt
+    </a>
+    <a href="#personal">
+      Personlig
+    </a>
+    <a href="#related">
+      Relaterte
+    </a>
+    <a href="#contact">
+      Kontakt
+    </a>
   </header>
-  <section id="about" class="container">
-
-  </section>
-  <section id="contact" class="containers">
-    <div class="login-box">
-        <h2>Spørsmål</h2>
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Navn</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>E-post</label>
-          </div>
-          <div class="user-box">
-            <input name="" required="">
-            <label>Melding</label>
-          </div>
-          <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Submit
-          </a>
-        </form>
+  <div class="hero">
+      <div class="overlay">
+        <h1>Elon Musk</h1>
       </div>
-</section>
+      <img class="hero_overlay_img" src="https://pngimg.com/d/elon_musk_PNG23.png">
+  </div>
+
+  <section id="latest">
+    <h1 id="latest-news">Latest News</h1>
+    <div class="news-presentation">
+      <div class="news">
+        <img class="news-img" src="https://premium.vgc.no/v2/images/6cca6833-881a-4daa-9967-0110998e1159?fit=crop&format=auto&h=754&w=1440&s=14ea4b6ed5497bc27cdadc4dc806a9d08f9c0a70">
+        <h3>Tar konspirasjonsteoriene over?</h3>
+        <p>X og Tesla i trøbbel etter vår mann gir oppmerksomhet til diverse konpirasjoner</p>
+        <p class="dato">I går | Ingen kommentarer</p>
+      </div>
+      <div class="news">
+        <img class="news-img" src="https://www.dagsavisen.no/resizer/1K4jGMgIDIORCxNJf43-WiIdfxA=/980x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/mentormedier/NAO5TF67RIPDY7BDNYSIPEWHPY.jpg">
+        <h3>Alex Jones på'n igjen!</h2>
+        <p>Konspirasjonsteoretiker Alex Jones har igjen blitt frikjent kansellering fra vår </p>
+        <p class="dato">11t | 5 kommentarer</p>
+      </div>
+      <div class="news">
+        <img class="news-img" src="https://www.sol.no/images/80645796.jpg?imageId=80645796&width=980&height=559&compression=80">
+        <h3>Ytringsfrihetens messias</h2>
+        <p>X og Tesla i trøbbel etter vår mann gir oppmerksomhet til diverse kospirasjoner</p>
+        <p class="dato">11m | 1 kommentar</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="personal">
+    <h1 id="latest-news">Personlige Nyheter</h1>
+    <div class="news-presentation">
+      <div class="news">
+        <img class="news-img" src="https://premium.vgc.no/v2/images/6cca6833-881a-4daa-9967-0110998e1159?fit=crop&format=auto&h=754&w=1440&s=14ea4b6ed5497bc27cdadc4dc806a9d08f9c0a70">
+        <h4>Elon Musk ber annonsører dra til helvete</h3>
+        <p>Annonsører fraskriver seg kontrakter i X grunnet Musks kommentarer ang antisemittistiske 'tweeter'</p>
+        <p class="dato">26s | 69 kommentarer</p>
+      </div>
+      <div class="news">
+        <img class="news-img" src="https://www.dagsavisen.no/resizer/1K4jGMgIDIORCxNJf43-WiIdfxA=/980x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/mentormedier/NAO5TF67RIPDY7BDNYSIPEWHPY.jpg">
+        <h4>Elon Musk er herre over krig og fred</h2>
+        <p>Når du er personen i verden som kontrollerer flest satellitter, må presidenter, og forsvarsministere bønnfalle deg</p>
+        <p class="dato">16t | 34 kommentarer</p>
+      </div>
+      <div class="news">
+        <img class="news-img" src="https://www.sol.no/images/80645796.jpg?imageId=80645796&width=980&height=559&compression=80">
+        <h4>Fagbevegelsen kan beseire Elon Musk</h2>
+        <p>Elon Musk er en av verdens rikeste og mektigste. Nå utfordres han av den nordiske fagbevegelsen.</p>
+        <p class="dato">8t | Theo kommenterer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="related">
+    <h1 id="latest-news">Relaterte Nyheter</h1>
+    <div class="news-presentation">
+      <div class="news">
+        <img class="news-img" src="https://premium.vgc.no/v2/images/6cca6833-881a-4daa-9967-0110998e1159?fit=crop&format=auto&h=754&w=1440&s=14ea4b6ed5497bc27cdadc4dc806a9d08f9c0a70">
+        <h4>Kjøreskoler dropper Tesla: dårlige blinklys</h3>
+        <p>Flere norske oppkjørselslokaler nekter bruk av tesla sine kjøretøy grunnet "for svake blinklys"</p>
+        <p class="dato">2d | Theo og 4 andre kommenterte</p>
+      </div>
+      <div class="news">
+        <img class="news-img" src="">
+        <h4>Fra 12 V til 48 V - Nå vil Tesla ha flere med</h2>
+        <p>Cybertruck er Teslas første bil med 48 V lavspenningssystem. Nå vil selskapet at flere følger etter.
+        </p>
+        <p class="dato">4m | 2 kommentarer</p>
+      </div>
+      <div class="news">
+        <img class="news-img" src="">
+        <h4>Fra 12 V til 48 V - Nå vil Tesla ha flere med</h2>
+        <p>
+          Cybertruck er Teslas første bil med 48 V lavspenningssystem. Nå vil selskapet at flere følger etter.
+        </p>
+        <p class="dato">4m | 2 kommentarer</p>
+      </div>
+    </div>
+  </section>x
+  <div class="footer" id="contact">
+    <h1>Kontakt oss</h1>
+    <form>      
+      <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+      <input name="email" type="text" class="feedback-input" placeholder="Email" />
+      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input type="submit" value="SUBMIT"/>
+    </form>
+  </div>
 </body>
 
 </html>
