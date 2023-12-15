@@ -39,12 +39,9 @@
     transform: translateX(-50%);
     width: 100%;
     height: 200px;
-    background-color: black;
+    background-color: rgb(5, 0, 30);
     clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
     z-index: 0;
-}
-.custom-shape-divider-top-1701423543 .shape-fill {
-    fill: black;
 }
 .hero::before {
     content: "";
