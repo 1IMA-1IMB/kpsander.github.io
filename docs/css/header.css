@@ -39,7 +39,7 @@
     transform: translateX(-50%);
     width: 100%;
     height: 200px;
-    background-color: rgb(5, 0, 30);
+    background-color: black;
     clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
     z-index: 0;
 }
@@ -87,4 +87,23 @@
 #about p{
     margin-left: 100px;
     margin-right: 100px;
+}
+.custom-shape-divider-top-1702640167 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1702640167 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1702640167 .shape-fill {
+    fill: #05001E;
 }
