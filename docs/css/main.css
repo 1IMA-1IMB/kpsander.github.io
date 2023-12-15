@@ -1,0 +1,180 @@
+.middle {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    padding-top: 10px;
+}
+
+.header-buttons{
+    z-index: 3;
+    pointer-events: auto;
+}
+
+.header-buttons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+#about{
+    background-color: black;
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 30vh;;
+    position: relative;
+}
+#projects{
+    width: 100%;
+    position: relative;
+    color: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+}
+#projects h1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#contact{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1702021998 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1702021998 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 213px;
+}
+.custom-shape-divider-bottom-1702021998 .shape-fill {
+    fill: #A9A9A9;
+}
+.om-meg-bilde{
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-right: 100px;
+}
+.om-meg{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.om-meg p, h2{
+    font-weight: bold;
+}
+.om-meg p{
+    font-family: Handlee
+}
+.custom-shape-divider-bottom-1702021998 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1702021998 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 213px;
+}
+
+.custom-shape-divider-bottom-1702021998 .shape-fill {
+    fill: black;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1.5s;
+}
+.show{
+    opacity: 1;
+}
+
+.project{
+    width: 100%;
+    height: 25vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    transition: height 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+.project:hover{
+    height: 40vh;
+    opacity: 100;
+}
+.project:active{
+    height: 100vh;
+    opacity: 1;
+}
+.project-1{
+    background-image: url(bilder/duell.png);
+    opacity: 70%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+}
+.project-1, .project-2, .project-3, .project-4:active{
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 10px;
+}
+.project-2{
+    background-image: url(bilder/g4jr.png);
+    opacity: 70%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+}
+.project-3{
+    background-image: url(bilder/meg.png);
+    opacity: 70%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+}
+.project-4{
+    background-image: url(bilder/nettavis.png);
+    opacity: 70%;
+    background-size: cover;
+    width: 100%;
+    height: 25vh;
+}

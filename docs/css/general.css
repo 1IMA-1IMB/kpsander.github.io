@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    text-shadow: 0px -1px 2px white;
+    font-weight: 900;
+    font-family: Raleway;
+}
