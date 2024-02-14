@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokument</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero"></div>
+    <a class="back" href="../index.html">
+        <button>&larr;</button>
+    </a>
+    <div class="parent">
+        <header>
+            <h1>minoritetsladningsbærerdiffusjonskoeffisientmålingsapparatur</h1>
+        </header>
+
+        <section class="midt">
+            <div class="valg">
+                <div class="seksjoner">
+                    <form id="form1">
+                        <input id="leftValue" type="text" maxlength="3" placeholder="Mengde">
+                        <input placeholder="gallon" class="enhetsvalg" id="venstre-enhet-input" list="måleenheter-1">
+                    </form>
+                    <datalist id="måleenheter-1">
+                        <option value="gallon">
+                        <option value="cup">
+                        <option value="kubikkmeter">
+                        <option value="desiliter">
+                    </datalist>
+                </div>  
+                <div class="midt-seksjon">  
+                    <button class="arrows" onclick="byttEnheter()">&rlarr;</button>
+                    <form id="form2">
+                        <div class="center">
+                            <button onclick="kalkulerOgSjekk()" type="submit">Kalkuler</button>
+                            <p class="palindrom_resultat" id="palindrom_output"></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="seksjoner">
+                    <form id="form3">
+                        <input id="rightValue" placeholder="liter" class="enhetsvalg" list="målenheter-1">
+                        <output id="output" class="o" type="text" maxlength="3">
+                    </form>
+                    <datalist id="målenheter">
+                        <option value="liter">
+                    </datalist>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

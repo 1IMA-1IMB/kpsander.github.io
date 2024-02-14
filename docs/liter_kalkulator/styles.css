@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.midt{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.valg{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.submit{
+    width: 100px;
+    height: 20px;
+}
+
+.enhetsvalg{
+    border: none;
+    width: 60px;
+    text-align: center;
+}
+.midt-seksjon{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.arrows{
+    width: 20px;
+}
+
+.o{
+    border: none;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://static1.squarespace.com/static/54bad4e9e4b0567044bce757/562b9335e4b0273764ee15c1/562b935ee4b0273764ee1655/1461956875451/Himmel+og+helvete.jpeg?format=1500w);
+    background-size: cover;
+    position: fixed;
+}
+.parent{
+    opacity: 99%;
+}
+
+.back{
+    position: fixed;
+    z-index: 10000;
+}
