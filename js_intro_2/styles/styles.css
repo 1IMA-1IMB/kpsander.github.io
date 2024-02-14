@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.submit{
+    height: 35px;
+    width: 120px;
+    border-width: 4px;
+    border-style: solid;
+    transition: background-color 0.15s
+}
+.submit:hover{
+    background-color: lightgrey;
+}
