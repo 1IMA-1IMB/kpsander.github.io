@@ -43,9 +43,6 @@
     clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
     z-index: 0;
 }
-.custom-shape-divider-top-1701423543 .shape-fill {
-    fill: black;
-}
 .hero::before {
     content: "";
     position: fixed;
@@ -90,4 +87,23 @@
 #about p{
     margin-left: 100px;
     margin-right: 100px;
+}
+.custom-shape-divider-top-1702640167 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1702640167 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1702640167 .shape-fill {
+    fill: #05001E;
 }

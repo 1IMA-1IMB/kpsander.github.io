@@ -28,12 +28,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   console.log(hiddenElements);
 });
-
-const projectElList = document.querySelectorAll('.project');
-
-projectElList.forEach(projectEl => {
-    projectEl.addEventListener('click', () => {
-        document.querySelector('.focusproject')?.classList.remove('focusproject');
-        projectEl.classList.add('focusproject');
-    });
-});
