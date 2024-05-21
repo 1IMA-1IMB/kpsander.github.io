@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goalglobe.com</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/rough-rough" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cover"></div>
+    <header>
+        <div class="left-header">
+            <h1 class="logo">GOAL<span style="color: green">GLOBE</span></h1>
+        </div>
+        <div class="center-header">
+            <button class="header-row">NEWS</button>
+            <button id="arrowbutton" class="header-row">
+                FIXTURES 
+                <img class="arrow" src="bilder/downarrow.png">
+            </button>
+            <button id="arrowbutton" class="header-row">
+                TABLES <img class="arrow" 
+                src="bilder/downarrow.png">
+            </button>
+            <button class="header-row">
+                RUMOURS AND TRANSFERS
+            </button>
+            <button class="header-row">
+                HELP
+            </button>
+        </div>
+        <div class="right-header">
+            <img data-tooltip="Your favourite articles" class="icon" src="bilder/heart.png">
+            <img data-tooltip="Check out our store" class="icon" src="bilder/shoppingbag.png">
+            <img data-tooltip="Your profile" class="icon" src="bilder/profilbilde.png">
+        </div>
+    </header>
+    <div class="logo-under">FREEDOM OF SPEECH</div>  
+    <div class="header-underline"></div> 
+    <div class="middle-content">   
+        <div class="middle-text">
+            <span class="front1">PROVIDING</span>
+            <span class="front2"><span class="stor">V</span>OICES</span>
+            <span class="front3">ABROAD</span>
+            <p class="p-boring">AN INDEPENDENT, FAN FOUND AND FAN DRIVEN WEBSITE FOR ENTHUSIASTS OF THE BEAUTIFUL GAME TO FREELY DISCUSS, CRITICISE, AND SPECULATE EVERYTHING FOOTBALL</p>
+        </div>
+
+
+        <div id="article1" class="article">
+            <img class="article-image" src='https://upload.wikimedia.org/wikipedia/commons/9/92/Michael_Oliver_EM-Qualifikationsspiel_%C3%96sterreich-Russland_2014-11-15_013_%28cropped%29.jpg'>
+            <div class="bottom-article">
+                <p class="category">The FA</p>
+                <p class="article-title">The PGMOL and VAR Under Fire Yet Again!</p>
+                <p class="article-blurb">Fans fuming towards the officiating in the premier league as several inconsistant decisions take place yet again!</p>
+                <button class="readmore">
+                    <p>Read more</p> 
+                    <img src="bilder/readarrow.png">
+                </button>
+            </div>
+        </div>
+
+        
+        <div id="article2" class="article">
+            <img class="article-image" src='https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/nett/2024/2/14/12/NTB_KWlem5FCMWc.jpg?chk=9760A8'>
+            <div class="bottom-article">
+                <p class="category">Man united</p>
+                <p class="article-title">Youngsters Secure 3 Points In Final Old Trafford Clash!</p>
+                <p class="article-blurb" id="blurb-2">Man united take 3 points after a sizzling 5 goal thriller at old trafford thanks to goals from Kobbie Mainoo(19), Amad Diallo(21), and Rasmus Højlund(21)</p>
+                <button class="readmore">
+                    <p>Read more</p> 
+                    <img src="bilder/readarrow.png">
+                </button>
+            </div>
+        </div>
+
+        <div id="article3" class="article">
+            <img class="article-image" src='https://upload.wikimedia.org/wikipedia/commons/5/56/Jude_Bellingham_2020_%28cropped2%29.jpg'>
+            <div class="bottom-article">
+                <p class="category">CHAMPIONS LEAGUE</p>
+                <p class="article-title">Borussia Dortmund In Financial Disputes!</p>
+                <p class="article-blurb">A clause included in Jude Bellingham's contract sees dortmund gaining financially from losing champions league final.</p>
+                <button class="readmore">
+                    <p>Read more</p> 
+                    <img src="bilder/readarrow.png">
+                </button>
+            </div>
+        </div>
+        <button class="scrollarrow" onclick="scrollArticle()">Next</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -219,7 +219,86 @@ h1{
     
     img{
       height: 400px;
-   	}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="title_screen" tags="title_screen" position="500,175" size="100,100">(text-colour:red)+(css:&quot;font-size: 100px&quot;)[&#39;&#39;Tapersimulator&#39;&#39;]
+   	}
+
+
+
+
+
+.button-48 {
+  appearance: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #EBEBEB;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.button-48:after {
+  background-color: #FFFFFF;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}
+
+
+
+
+
+
+
+.info{
+  Position: fixed;
+  Top: 0;
+  Right: 0;
+  
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="title_screen" tags="title_screen" position="500,175" size="100,100">(text-colour:red)+(css:&quot;font-size: 100px&quot;)[&#39;&#39;Tapersimulator&#39;&#39;]
   Laget av Sander Leivann Olsen.
   (set: $navn to (prompt: &quot;Hva er ditt fulle navn?&quot;, &quot;&quot;))
 &lt;div id=&quot;start&quot; class=&quot;login-box&quot;&gt;
@@ -276,23 +355,31 @@ I rettssaken mot (print: $navn) fant juryen vedkommende skyldig i omfattende ska
 [[...-&gt;fengselslutten]]
 &lt;img style=&quot;height: 400px;&quot; src=&#39;https://github.com/1IMA-1IMB/kpsander.github.io/blob/main/Twine/retten.jpg?raw=true&#39;&gt;</tw-passagedata><tw-passagedata pid="19" name="militærslutten" tags="militærslutten" position="1125,2250" size="100,100">Til tross for at målet var å flytte ut/betale hjemmerente fikk du et annet tilbud langs veien og slo til. 
 
-Bra spilt!</tw-passagedata><tw-passagedata pid="20" name="hjemløsslutten" tags="hjemløsslutten" position="1275,2250" size="100,100">Du ble sendt på hue ut av døren og er en av norges ca 3500 hjemløse individer. 
+Bra spilt!
+
+[[Kilder]]</tw-passagedata><tw-passagedata pid="20" name="hjemløsslutten" tags="hjemløsslutten" position="1275,2250" size="100,100">Du ble sendt på hue ut av døren og er en av norges ca 3500 hjemløse individer. 
 
 
 Bra spilt! 
 
 
 
-(meget sarkastisk ment.)</tw-passagedata><tw-passagedata pid="21" name="fengselslutten" tags="fengselslutten" position="1425,2250" size="100,100">Det viser seg at det var en meget stor tabbe å noen gang involvere deg med kontorjobben til veninnen din.
+(meget sarkastisk ment.)
+
+[[Kilder]]</tw-passagedata><tw-passagedata pid="21" name="fengselslutten" tags="fengselslutten" position="1425,2250" size="100,100">Det viser seg at det var en meget stor tabbe å noen gang involvere deg med kontorjobben til veninnen din.
 
 Bra spilt!
 
 
-(meget sarkastisk ment)</tw-passagedata><tw-passagedata pid="22" name="hjemmerente" tags="hjemmerente" position="750,1200" size="100,100">Dagen før fristen kommer du hjem og far spør deg om status.
-[[...-&gt;hjemmerente_2]]</tw-passagedata><tw-passagedata pid="23" name="hjemmerente_2" tags="hjemmerente_2" position="750,1350" size="100,100">Du klarte å skrape sammen nok penger til å betale hjemmerenten, men omtrent ingen profitt. Dermed blir du møtt med omtrent nøyaktig samme situasjon neste måned.
-[[Fortsett-&gt;hjemmerenteslutten]]</tw-passagedata><tw-passagedata pid="24" name="hjemmerenteslutten" tags="hjemmerenteslutten" position="975,2250" size="100,100">Du har klart å skrape sammen nok penger i løpet av måneden til å betale fattern rentepengene sine.
+(meget sarkastisk ment)
 
-Bra spilt!</tw-passagedata><tw-passagedata pid="25" name="tabbe" tags="tabbe" position="1425,1075" size="100,100">Du spør angjeldende som sitter i rommet med deg om bagatellen du observerte i kontrakten din
+[[Kilder]]</tw-passagedata><tw-passagedata pid="22" name="hjemmerente" tags="hjemmerente" position="750,1200" size="100,100">Dagen før fristen kommer du hjem og far spør deg om status.
+[[...-&gt;hjemmerente_2]]</tw-passagedata><tw-passagedata pid="23" name="hjemmerente_2" tags="hjemmerente_2" position="750,1350" size="100,100">Du klarte å skrape sammen nok penger til å betale hjemmerenten, men omtrent ingen profitt. Dermed blir du møtt med omtrent nøyaktig samme situasjon neste måned.
+[[...-&gt;hjemmerenteslutten]]</tw-passagedata><tw-passagedata pid="24" name="hjemmerenteslutten" tags="hjemmerenteslutten" position="975,2250" size="100,100">Du har klart å skrape sammen nok penger i løpet av måneden til å betale fattern rentepengene sine.
+
+Bra spilt!
+
+[[Kilder]]</tw-passagedata><tw-passagedata pid="25" name="tabbe" tags="tabbe" position="1425,1075" size="100,100">Du spør angjeldende som sitter i rommet med deg om bagatellen du observerte i kontrakten din
 [[...-&gt;tabbe2]]</tw-passagedata><tw-passagedata pid="26" name="tabbe2" tags="tabbe2" position="1425,1200" size="100,100">Han tenker litt, og plutselig banker han på innsiden av døren, og så kommer det to nye inn i rommet. Døren låses bak dem, og du blir møtt med svært truende trusler [[...-&gt;trusler]]
 &lt;img style=&quot;height: 400px;&quot; src=&#39;https://github.com/1IMA-1IMB/kpsander.github.io/blob/main/Twine/tabbe2.jpg?raw=true&#39;&gt;</tw-passagedata><tw-passagedata pid="27" name="trusler" tags="trulser" position="1450,1325" size="100,100">De innrømmer omtrent umiddelbart at det ikke er så veldig lovlig det de holder på med, og informerer deg også om at du befinner deg i et rom med 3 folk, ingen av dem særlig interessert i å miste jobben, skulle du tyste til lovens lange arm.
 Til tross for den alvorlige tonen, og de skumle ordene de nettopp har syntentisert- gir de deg to relativt snille alternativer. Du kan [[skrive under-&gt;Ikke kontrakt]] på den meget lukrative kontrakten de tilbyr deg, i tillegg har en av dem åpnet døren, og tilbyr seg å eskortere deg ut av rommet, slik at du kan [[søke en annen jobb-&gt;ut døren]]</tw-passagedata><tw-passagedata pid="28" name="ut døren" tags="ut_døren" position="1575,1075" size="100,100">Dagen etter stikker du på kiwi, og jobbintervju der, hvor du imponerer vedkommende med bemerkelsesverdig sjarm og emanasjon, du går ut av butikken med en ny jobb og en vakt dagen etter [[...-&gt;dagen etter]]</tw-passagedata><tw-passagedata pid="29" name="dagen etter" tags="dagen_etter" position="1650,1200" size="100,100">Dagen etter, i løpet av den første vakten din, blir du pågrepet på jobb på kiwi og kastet i baksete av en politibil umiddelbart. Der sitter veninnen som tilbø deg kontorjobben. Du ble kastet med i retten sammen med bl.a, de som var i rommet med deg og kontrakten dagen før. Viser seg at skatteprosentene du la merke til i kontrakten var svært relevante, da du- og resten av gjengen var blitt siktet  for hvitvasking og skattesvinn.
@@ -342,7 +429,11 @@ Desverre ingen suksess.
 [[...-&gt;konfronter]]
 ]</tw-passagedata><tw-passagedata pid="43" name="Ikke kontrakt" tags="" position="1000,950" size="100,100">Du skriver under på stedet, og får med deg ikke bare en flott uniform og annet jobbmerch, men en vakt det påfølgende dagen.
 [[...-&gt;tax-fraud]]
-&lt;img style=&quot;height: 400px;&quot; src=&#39;https://github.com/1IMA-1IMB/kpsander.github.io/blob/main/Twine/ikke_kontrakt.jpg?raw=true&#39;&gt;</tw-passagedata></tw-storydata>
+&lt;img style=&quot;height: 400px;&quot; src=&#39;https://github.com/1IMA-1IMB/kpsander.github.io/blob/main/Twine/ikke_kontrakt.jpg?raw=true&#39;&gt;</tw-passagedata><tw-passagedata pid="44" name="Kilder" tags="" position="1200,2450" size="100,100">AI bilder (laget og bearbeidet) ved:
+COPILOT
+https://www.bing.com/chat?q=copilot&amp;form=WSBEDG&amp;qs=AS&amp;cvid=c07bcbca747f4d3b940d633fd774a65c&amp;pq=copilot&amp;cc=NO&amp;setlang=nb-NO&amp;DAF0=1&amp;PC=LCTS&amp;nclid=417BDE2C2CA7B91C9B406C59C1923802&amp;ts=1714030360408&amp;wsso=Moderate&amp;showconv=1
+
+Noen få stock bilder fra search.creativecommons.org</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim

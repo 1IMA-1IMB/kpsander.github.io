@@ -1,0 +1,14 @@
+a img{
+    background-image: url(https://image.oavis.no/285181.webp?imageId=285181&width=960&height=720&format=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header{
+    position: fixed;
+}
